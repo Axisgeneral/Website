@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Share Your Experience | Real Barbers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Real Barbers</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="testimonials.html">Testimonials</a>
+    </nav>
+  </header>
+  <main>
+    <section id="testimonials">
+      <h2>Share Your Experience</h2>
+      <p>We value your feedback! If you've visited Real Barbers, please share your experience with us.</p>
+      <form class="testimonial-form" action="mailto:Realbarbers@gmail.com" method="POST" enctype="text/plain">
+        <label for="name">Name (optional):</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name"><br><br>
+        <label for="message">Your Testimonial:</label><br>
+        <textarea id="message" name="message" rows="4" required placeholder="Write your review here..."></textarea><br><br>
+        <button type="submit">Send Testimonial</button>
+      </form>
+      <p>Or email us directly at <a href="mailto:Realbarbers@gmail.com">Realbarbers@gmail.com</a></p>
+      <h3>See Our Google Reviews</h3>
+      <div style="margin:1rem 0; text-align:center;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m2!2m1!1sReal+Barbers+5192+S+Lowell+Blvd+Littleton+CO+80123" width="350" height="250" style="border:0; border-radius:8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Real Barbers</p>
+  </footer>
+</body>
+</html>
